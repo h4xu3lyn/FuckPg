@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\minirtl">
+      <UniqueIdentifier>{68b08b21-325e-4d39-a7a1-0b2206c07f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cui">
+      <UniqueIdentifier>{d7aa84f1-d644-4d61-a1f4-18ee6ff0ac18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minirtl">
+      <UniqueIdentifier>{a3f59273-4c61-4359-9420-03c425cd871d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cui">
+      <UniqueIdentifier>{a47e4ff3-1c37-4fd4-bac4-37c9e5982fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ntdll">
+      <UniqueIdentifier>{9bfa7c39-861e-4efb-8cd0-612dd8c58a00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patterns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cui\cui.h">
+      <Filter>Header Files\cui</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\cmdline.h">
+      <Filter>Header Files\minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\minirtl.h">
+      <Filter>Header Files\minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\rtltypes.h">
+      <Filter>Header Files\minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\_filename.h">
+      <Filter>Header Files\minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos.h">
+      <Filter>Header Files\ntdll</Filter>
+    </ClInclude>
+    <ClInclude Include="bcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cui\cui.c">
+      <Filter>Source Files\cui</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncmpi.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncpy.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\cmdline.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\strtoi.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_filename.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcat.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmp.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmpi.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcpy.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strend.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strlen.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncmp.c">
+      <Filter>Source Files\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="bcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
